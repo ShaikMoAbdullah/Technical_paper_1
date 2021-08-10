@@ -1,5 +1,3 @@
-<br />
-
 # Elasticsearch, Solr, and Lucene
 
 ## Table of Contents
