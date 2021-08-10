@@ -26,8 +26,9 @@ Elasticsearch is a **distributed**, **free** and **open search** and **analytics
 * Now the items have filled the page and we need to click on **Next** to go to the next page. And, that is too facilitated using Elasticsearch.
 
 <br />
-<img src="https://blog.bismart.com/hs-fs/hubfs/Imported_Blog_Media/Elastic%20Search/Elasticsearch%20GIF.gif?width=900&name=Elasticsearch%20GIF.gif" alt="elasticsearch" width="500"/>
-
+<p align = 'center'>
+<img src="https://blog.bismart.com/hs-fs/hubfs/Imported_Blog_Media/Elastic%20Search/Elasticsearch%20GIF.gif?width=900&name=Elasticsearch%20GIF.gif" alt="elasticsearch" width="400"/>
+</p>
 <br />
 <br />
 
@@ -46,7 +47,9 @@ Elasticsearch is a **distributed**, **free** and **open search** and **analytics
 * Security analytics
 * Business analytics
 
-<img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt50671ed5bbad50f3/608fbbdc2d1d221032193ff1/illustration-balance-cost.png" alt="Free" width="500"/>
+<p align = 'center'>
+<img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt50671ed5bbad50f3/608fbbdc2d1d221032193ff1/illustration-balance-cost.png" alt="Free" width="400"/>
+</p>
 <br />
 <br />
 
@@ -56,9 +59,9 @@ Elasticsearch is a **distributed**, **free** and **open search** and **analytics
 * **Elasticsearch is distributed**. The distributed nature of Elasticsearch enables it to process large volumes of data in **parallel**, quickly finding the best matches for your queries.
 
 <br />
-
-<img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt61799e12d10f4581/5e6158f8dc0f1706df255d1c/illustration-elasticsearch-resiliency-555.png" alt="Distributed" width="500"/>
-
+<p align = 'center'>
+<img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt61799e12d10f4581/5e6158f8dc0f1706df255d1c/illustration-elasticsearch-resiliency-555.png" alt="Distributed" width="400"/>
+</p>
 <br />
 <br />
 
@@ -76,9 +79,9 @@ Elasticsearch is a **distributed**, **free** and **open search** and **analytics
 * Elasticsearch comes with a wide set of features. In addition to its **speed**, **scalability**, and **resiliency**, Elasticsearch has several powerful built-in features that make storing and searching data even more efficient, such as data rollups and index lifecycle management.
 
 <br />
-
-<img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt8c328002d82e303e/5d0d573477f34fd55839b61f/illustration-elasticsearch-scalability-555.png" alt="Scalability" width="500"/>
-
+<p align = 'center'>
+<img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt8c328002d82e303e/5d0d573477f34fd55839b61f/illustration-elasticsearch-scalability-555.png" alt="Scalability" width="400"/>
+</p>
 <br />
 <br />
  Let's understand some queries here. Curl is a command-line tool to transfer data to or from a server. Here, We are requesting a search in a products index for a type of product which is a thinkpadx240 laptop. This is just a simple query. More to it can be found [here](https://github.com/elastic/elasticsearch).
