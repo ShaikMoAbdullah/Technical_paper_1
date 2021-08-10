@@ -1,6 +1,6 @@
 <br />
 
-# Elasticsearch, Solr and Lucene
+# Elasticsearch, Solr, and Lucene
 
 ## Table of Contents
 * ### What is Elasticsearch?
@@ -20,8 +20,8 @@
 
 * ### You can imagine this when you shop using amazon. We search for an item in a search box and that's an **Unstructured search**. 
 
-* ### When you click on any item recommended by Amazon on the home page, that is an **Structured search**.
-* ### If you **sort** the items from cheap to high in the products page like i do, that is facilitated using Elasticsearch.
+* ### When you click on any item recommended by Amazon on the home page, that is a **Structured search**.
+* ### If you **sort** the items from cheap to high on the products page as I do, that is facilitated using Elasticsearch.
 * ### Now the items have filled the page and we need to click on **Next** to go to the next page. And, that is too facilitated using Elasticsearch.
 
 <br />
@@ -72,7 +72,7 @@
    * ### Perl
    * ### Ruby 
 
-* ### Elasticsearch comes with a wide set of features. In addition to its **speed**, **scalability**, and **resiliency**, Elasticsearch has a number of powerful built-in features that make storing and searching data even more efficient, such as data rollups and index lifecycle management.
+* ### Elasticsearch comes with a wide set of features. In addition to its **speed**, **scalability**, and **resiliency**, Elasticsearch has several powerful built-in features that make storing and searching data even more efficient, such as data rollups and index lifecycle management.
 
 <br />
 
@@ -81,7 +81,7 @@
 <br />
 <br />
 
-### Let's undertand some queries here. Curl is a command line tool to transfer data to or from a server. Here, We are requesting a search in an products index for a type product which is a thinkpadx240 laptop. This is just a simple query. More to it can be found [here](https://github.com/elastic/elasticsearch).
+### Let's understand some queries here. Curl is a command-line tool to transfer data to or from a server. Here, We are requesting a search in a products index for a type of product which is a thinkpadx240 laptop. This is just a simple query. More to it can be found [here](https://github.com/elastic/elasticsearch).
 
 ```
 curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
@@ -96,9 +96,9 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 # What is Solr?
 * ### Solr is a JAVA-based [open source enterprise search client](https://youtu.be/0tH36OfNwNw). It's built around Lucene which is a high-performance search engine library.
 
-* ### Solr is the popular, **blazing-fast**, **open source enterprise search platform**, built on Apache Lucene™. It could easily be integrated with **Apache Hadoop** and therefore is also capable of using with **Big data**.
+* ### Solr is the popular, **blazing-fast**, **open source enterprise search platform**, built on Apache Lucene™. It could is integrated with **Apache Hadoop** and therefore is also capable of using with **Big data**.
 
-* ### Solr is a **standalone enterprise search server** with a REST-like API. You put documents in it via JSON, XML, CSV or binary over HTTP.
+* ### Solr is a **standalone enterprise search server** with a REST-like API. You put documents in it via JSON, XML, CSV, or binary over HTTP.
 
 <br />
 
@@ -147,12 +147,12 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 
 # Conclusion
 
-### Considering to switch to different database for full text searching to improve performance, We could go for Elasticsearch because of its innumerable benefits.
+### Considering switching to a different database for full text searching to improve performance, We could go for Elasticsearch because of its innumerable benefits.
 
-* ### Elasticsearch is cloud ready out of the box which makes it reliable in times of systems failure.
-* ### Elasticsearch runs a search index on multiple servers which makes it reliable in terms of systems failure.
-* ### Performance wise, Both Elasticsearch and Solr are the same.
-* ### Elasticsearch is simpler to work with. Unlike solr, It has just a single process with real-time updates which makes it engaging and helpful in tracking status.  
+* ### Elasticsearch is cloud-ready out of the box which makes it reliable in times of systems failure.
+* ### Elasticsearch runs a search index on multiple servers which makes it reliable in times of systems failure.
+* ### Performance-wise, Both Elasticsearch and Solr are the same.
+* ### Elasticsearch is simpler to work with. Unlike solr, Elasticsearch is a single process with real-time updates making it engaging and helpful in tracking status.  
 
 <br />
 <br />
@@ -160,6 +160,7 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 # References
 
 * ### [What is ElasticSearch](https://www.elastic.co/what-is/elasticsearch)
+* ### [Elasticsearch - Beyond Full-text Search • Alex Reelsen • GOTO 2013](https://youtu.be/yWNiRC_hUAw)
 * ### [Amazon ElasticSearch Service]([amkette.com/my-account/orders/](https://aws.amazon.com/elasticsearch-service/the-elk-stack/what-is-elasticsearch/))
 * ### [Why ElasticSearch](https://www.elastic.co/elasticsearch/)
 * ### [All about ElasticSearch](https://youtu.be/yZJfsUOHJjg)
