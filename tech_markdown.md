@@ -30,11 +30,8 @@ Elasticsearch is a **distributed**, **free** and **open search** and **analytics
 <img src="https://blog.bismart.com/hs-fs/hubfs/Imported_Blog_Media/Elastic%20Search/Elasticsearch%20GIF.gif?width=900&name=Elasticsearch%20GIF.gif" alt="elasticsearch" width="400"/>
 </p>
 <br />
-<br />
 
  [Elasticsearch](https://github.com/elastic) is built on **Apache Lucene** and was first released in 2010 and is known for its **simple REST APIs**, **distributed nature**, **speed**, and **scalability**.
-
-<br />
 
 ## What is it used for?
 * Application search
@@ -47,23 +44,22 @@ Elasticsearch is a **distributed**, **free** and **open search** and **analytics
 * Security analytics
 * Business analytics
 
+<br />
 <p align = 'center'>
 <img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt50671ed5bbad50f3/608fbbdc2d1d221032193ff1/illustration-balance-cost.png" alt="Free" width="400"/>
 </p>
 <br />
-<br />
+
 
 ## Why use Elasticsearch?
 * Elasticsearch offers [REST APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html), a simple HTTP interface, and uses schema-free JSON documents, making it easy to get started and quickly build applications for a variety of use-cases.
 
 * **Elasticsearch is distributed**. The distributed nature of Elasticsearch enables it to process large volumes of data in **parallel**, quickly finding the best matches for your queries.
 
-<br />
+
 <p align = 'center'>
 <img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt61799e12d10f4581/5e6158f8dc0f1706df255d1c/illustration-elasticsearch-resiliency-555.png" alt="Distributed" width="400"/>
 </p>
-<br />
-<br />
 
 * **Complimentary tools and plugins**. Elasticsearch comes integrated with **Kibana**, *a popular visualization and reporting tool*. It also offers integration with **Beats** and **Logstash**, while enabling you to easily transform source data and load it into your Elasticsearch cluster.
 
@@ -78,22 +74,21 @@ Elasticsearch is a **distributed**, **free** and **open search** and **analytics
 
 * Elasticsearch comes with a wide set of features. In addition to its **speed**, **scalability**, and **resiliency**, Elasticsearch has several powerful built-in features that make storing and searching data even more efficient, such as data rollups and index lifecycle management.
 
-<br />
+
 <p align = 'center'>
 <img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt8c328002d82e303e/5d0d573477f34fd55839b61f/illustration-elasticsearch-scalability-555.png" alt="Scalability" width="400"/>
 </p>
-<br />
-<br />
+
+
  Let's understand some queries here. Curl is a command-line tool to transfer data to or from a server. Here, We are requesting a search in a products index for a type of product which is a thinkpadx240 laptop. This is just a simple query. More to it can be found [here](https://github.com/elastic/elasticsearch).
 
 ```
 curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 ```
-<br />
+
 
  Some Technology companies using solr are Github, Uber, Shopify, Facebook, Udemy, Slack, etc.
 
-<br />
 <br />
 
 # What is Solr?
@@ -123,12 +118,13 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
  Some Technology companies using solr are Flipkart, Instagram, Intuit, Apple, Chegg, eBay, etc.
 
 <br />
-<br />
 
 # What is Lucene?
  It is a powerful JAVA search library that lets you easily add search or retrieval of information to applications.
  It is not a server, but an embedded library is mostly misunderstood.
  [The structure of Apache Lucene shown in various versions](https://dzone.com/articles/structure-apache-lucene)
+
+<br />
 
 ## Why use Lucene?
 
@@ -143,7 +139,7 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
  Some companies using Lucene are Nike, Walmart, Peraton, etc.
 
 <br />
-<br />
+
 
 # Conclusion
  Considering switching to a different database for full text searching to improve performance, We could go for Elasticsearch because of its innumerable benefits.
@@ -153,7 +149,6 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 * Performance-wise, Both Elasticsearch and Solr are the same.
 * Elasticsearch is simpler to work with. Unlike solr, Elasticsearch is a single process with real-time updates making it engaging and helpful in tracking status.  
 
-<br />
 <br />
 
 # References
@@ -170,5 +165,3 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 * [Difference between solr and lucene](https://stackoverflow.com/questions/15704644/difference-between-solr-and-lucene#:~:text=Similarly%2C%20Lucene%20is%20a%20programmatic,use%20out%2Dof%2Dbox.&text=Solr%20is%20built%20on%20top%20of%20lucene%20to%20provide%20a%20search%20platform.&text=SOLR%20is%20a%20wrapper%20over,and%20Lucene%20is%20its%20engine.)
 
 * [Amazon Elastic Service](https://aws.amazon.com/elasticsearch-service/)
-
-<br />
