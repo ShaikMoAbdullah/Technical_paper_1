@@ -95,7 +95,7 @@ curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 ```
 
 
- Some Technology companies using Solr are Github, Uber, Shopify, Facebook, Udemy, Slack, etc.
+ >Some Technology companies using Solr are Github, Uber, Shopify, Facebook, Udemy, Slack, etc.
 
 <br />
 
