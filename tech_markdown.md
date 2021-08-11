@@ -23,15 +23,11 @@ Elasticsearch is a **Distributed**, **Free**, **Open search**, **Analytics and F
 * If you **Sort** the items from *cheap to high* on the products page as I do, that is facilitated using Elasticsearch.
 * Now the items have filled the page and we need to click on **Next** to go to the next page. This feature is also facilitated using Elasticsearch.
 
-<br />
-
 <p align = 'center'>
 <img src="https://blog.bismart.com/hs-fs/hubfs/Imported_Blog_Media/Elastic%20Search/Elasticsearch%20GIF.gif?width=900&name=Elasticsearch%20GIF.gif" alt="elasticsearch" width="400"/>
 </p>
 
-<br />
-
- [Elasticsearch](https://github.com/elastic) is built on **Apache Lucene** and was first released in 2010 and is known for its **Simple REST APIs**, **Distributed nature**, **Speed**, and **Scalability**.
+[Elasticsearch](https://github.com/elastic) is built on **Apache Lucene** and was first released in 2010 and is known for its **Simple REST APIs**, **Distributed nature**, **Speed**, and **Scalability**.
 
 ## What is it used for?
 * Application search
@@ -44,26 +40,18 @@ Elasticsearch is a **Distributed**, **Free**, **Open search**, **Analytics and F
 * Security analytics
 * Business analytics
 
-<br />
-
 <p align = 'center'>
 <img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt50671ed5bbad50f3/608fbbdc2d1d221032193ff1/illustration-balance-cost.png" alt="Free" width="400"/>
 </p>
-
-<br />
 
 ## Why use Elasticsearch?
 * Elasticsearch offers [REST APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html), A simple HTTP interface and uses schema-free JSON documents, Making it easy to get started and quickly build applications for a variety of use-cases.
 
 * **Elasticsearch is distributed**. The distributed nature of Elasticsearch enables it to process large volumes of data in **parallel**, Quickly finding the best matches for your queries.
 
-<br />
-
 <p align = 'center'>
 <img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt61799e12d10f4581/5e6158f8dc0f1706df255d1c/illustration-elasticsearch-resiliency-555.png" alt="Distributed" width="400"/>
 </p>
-
-<br />
 
 * **Complimentary tools and plugins**. Elasticsearch comes integrated with **Kibana**, *A popular visualization and reporting tool*. It also offers integration with **Beats** and **Logstash**, While enabling you to easily transform source data and load it into your Elasticsearch cluster.
 
@@ -76,24 +64,17 @@ Elasticsearch is a **Distributed**, **Free**, **Open search**, **Analytics and F
    * Perl
    * Ruby 
 
-<br />
-
 * Elasticsearch comes with a wide set of features. In addition to its **Speed**, **Scalability**, and **Resiliency**, Elasticsearch has several powerful built-in features that make storing and searching data even more efficient such as data rollups and index lifecycle management.
-
-<br />
 
 <p align = 'center'>
 <img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt8c328002d82e303e/5d0d573477f34fd55839b61f/illustration-elasticsearch-scalability-555.png" alt="Scalability" width="400"/>
 </p>
-
-<br />
 
  Let's understand some queries here. Curl is a command-line tool to transfer data to or from a server. Here, We are requesting a search in a products index for a type of product which is a thinkpadx240 laptop. This is just a simple query. More to it can be found [here](https://github.com/elastic/elasticsearch).
 
 ```
 curl -X GET 'localhost:9200/products/product/_search?q=thinkpadx240'
 ```
-
 
  >Some Technology companies using Solr are Github, Uber, Shopify, Facebook, Udemy, Slack, etc.
 
