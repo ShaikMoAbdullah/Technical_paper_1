@@ -76,7 +76,7 @@ As we can see, Each of the tables are similar to an Excel spreadsheet, with a fi
 
 Let's start with the first query. 
 >queries are nothing but statements
-### 1. SELECT query
+### SELECT query
 To retrieve data from a SQL database, we need to write SELECT statements. The query  declares what data we are looking for, where to find it in the database, and optionally, how to transform it before it is returned.
 
 >**Table** in SQL represents an **entity** (e.g. movies), and each **row** in that table as a specific **instance** of that type(e.g 1, 2). This means that the **columns** would then represent the **common properties** shared by all instances of that entity(e.g. title, Year, etc).
