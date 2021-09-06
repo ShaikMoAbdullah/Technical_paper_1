@@ -19,7 +19,7 @@ Consider the grids we find in **Maps**. *Islands*, *towns*, *lakes* will appear 
 
 <img src = "https://public-media.interaction-design.org/images/uploads/72a38c6a9d9e873d50df5fc0caa8b60b.jpg" style="display: block; margin: 0 auto;" />
 
-As we can see, The grid system was first used to arrange *handwriting* on paper and then in *publishing* to organize the layout of printed pages. Given that the *printed page* and the *virtual page* have much in common,it should come as no surprise that we also use it in **web and app design**.
+As we can see, The grid system was first used to arrange *handwriting* on paper and then in *publishing* to organize the layout of printed pages. Given that the *printed page* and the *virtual page* have much in common, it should come as no surprise that we also use it in **web and app design**.
 
 ## 2. Grid elements
 
@@ -45,7 +45,7 @@ Now, We are having the **structure** of the webpage ready, but it looks *unattra
 
 ## 3. Display property
 
-Here, We have set the display property to grid to make a [**block-level**](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_display_grid) grid container.
+Here, We have set the display property to the grid to make a [**block-level**](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_display_grid) grid container.
 
 ```
 .grid-container {
@@ -57,7 +57,7 @@ Here, We have set the display property to grid to make a [**block-level**](https
 ```
 Let me explain what the above snippet does to the webpage.
 
-* The first CSS property "**display**" will display the contents in a *grid* format, Meaning the contents can be placed vertically or hrizontally based on the values given to the properties.
+* The first CSS property "**display**" will display the contents in a *grid* format, Meaning the contents can be placed vertically or horizontally based on the values given to the properties.
 
 * The second CSS property "**grid-template-columns**" in the snippet will specify the *number of columns* in the grid layout.
 
@@ -115,11 +115,11 @@ Output is:
 >
 ><p>Just some text</p>
 
-Here, We obeserve that in the *first case*, The font-weight is set to **unset** and hence we do not get any styling. In the *second case*, The font-weight is set to **revert**, Therefore, whatever the styling is given to it is ignored and reverted to its property of the parent element.
+Here, We observe that in the *first case*, The font-weight is set to **unset** and hence we do not get any styling. In the *second case*, The font-weight is set to **revert**, Therefore, whatever the styling is given to it is ignored and reverted to its property of the parent element.
 
 ## 5. Grid columns
 
-The vertical lines of grid items are called **Columns**. It can be used in placement of the items in the right positions of the grid.
+The vertical lines of grid items are called **Columns**. It can be used in the placement of the items in the right positions of the grid.
 
 ```
 grid-column: 1;
@@ -130,7 +130,7 @@ This snippet specifies the column in which the grid item is placed.
 
 ## 6. Grid Rows
 
-The horizontal lines of grid items are called **Rows**. It can be used in placement of the items in the right positions of the grid.
+The horizontal lines of grid items are called **Rows**. It can be used in the placement of the items in the right positions of the grid.
 ```
 grid-row: 1;
 ```
